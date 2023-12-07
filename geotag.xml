@@ -15,7 +15,7 @@
             <Style>
                 <IconStyle>
                     <Icon>
-                        <href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+                        <href>https://api3.geo.admin.ch/color/0,50,255/marker-24@2x.png</href>
                         <gx:w>48</gx:w>
                         <gx:h>48</gx:h>
                     </Icon>
@@ -42,7 +42,7 @@
             <Style>
                 <IconStyle>
                     <Icon>
-                        <href>https://api3.geo.admin.ch/color/255,0,0/marker-24@2x.png</href>
+                        <href>https://api3.geo.admin.ch/color/222,225,0/marker-24@2x.png</href>
                         <gx:w>48</gx:w>
                         <gx:h>48</gx:h>
                     </Icon>
