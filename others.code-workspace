@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../others"
+		},
+		{
+			"path": "../web"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "geomap"
+	}
+}
