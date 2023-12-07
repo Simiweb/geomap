@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+    <!-- XML Schema Generated from XML Document on Thu Dec 07 2023 08:17:01 GMT+0100 (Mitteleuropäische Normalzeit) -->
+    <!-- with XmlGrid.net Free Online Service http://xmlgrid.net -->
+    <xs:element name="kml">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Document">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string"></xs:element>
+                            <xs:element name="Placemark" maxOccurs="unbounded">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="ExtendedData">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Data">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="value" type="xs:string"></xs:element>
+                                                            </xs:sequence>
+                                                            <xs:attribute name="name" type="xs:string"></xs:attribute>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="name" type="xs:string"></xs:element>
+                                        <xs:element name="description" type="xs:string"></xs:element>
+                                        <xs:element name="Style">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="IconStyle">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="Icon">
+                                                                    <xs:complexType>
+                                                                        <xs:sequence>
+                                                                            <xs:element name="href" type="xs:string"></xs:element>
+                                                                            <xs:element name="gx:w" type="xs:int"></xs:element>
+                                                                            <xs:element name="gx:h" type="xs:int"></xs:element>
+                                                                        </xs:sequence>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                                <xs:element name="hotSpot">
+                                                                    <xs:complexType>
+                                                                        <xs:attribute name="x" type="xs:int"></xs:attribute>
+                                                                        <xs:attribute name="y" type="xs:double"></xs:attribute>
+                                                                        <xs:attribute name="xunits" type="xs:string"></xs:attribute>
+                                                                        <xs:attribute name="yunits" type="xs:string"></xs:attribute>
+                                                                    </xs:complexType>
+                                                                </xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                    <xs:element name="LabelStyle">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="color" type="xs:string"></xs:element>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Point">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="tessellate" type="xs:int"></xs:element>
+                                                    <xs:element name="altitudeMode" type="xs:string"></xs:element>
+                                                    <xs:element name="coordinates" type="xs:string"></xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="id" type="xs:string"></xs:attribute>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="xmlns" type="xs:string"></xs:attribute>
+            <xs:attribute name="xmlns:gx" type="xs:string"></xs:attribute>
+            <xs:attribute name="xmlns:xsi" type="xs:string"></xs:attribute>
+            <xs:attribute name="xsi:schemaLocation" type="xs:string"></xs:attribute>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
