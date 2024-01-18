@@ -1,0 +1,1 @@
+https://map.geo.admin.ch/?lang=de&topic=ech&bgLayer=ch.swisstopo.swissimage&layers_timestamp=18641231&E=2691696.59&N=1248980.29&zoom=5&layers_visibility=false
